@@ -1,0 +1,32 @@
+body {background-color: lavender;
+}
+
+.header {background-color: lightblue;
+text-align: center;
+color: orange;
+font-family: "helvetica", sans-serif;
+text-transform: uppercase;
+height: 100px;
+}
+
+.content {background: pink;
+font-size: 20px;
+font-family: sans-serif;
+margin: auto: 6px;}
+
+.fixed{position: fixed;
+left: 450px;
+color: deeppink}
+
+.absolute {position: absolute;
+right: 100px;
+}
+
+.relative {position: relative;
+left: 200px;
+bottom: 100px}
+
+div p {color: purple;}
+
+h2 {color: darkred}
+h2 ~ h3 {color: red}
