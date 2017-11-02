@@ -1,0 +1,14 @@
+body {background-color: white;}
+
+.wrapper {background-color: forestgreen;
+height: 100%;
+padding: 10px}
+
+.box1 {border: dashed 3px;
+border-color: black;
+color: red;
+padding: 5px}
+
+.box11 {color: green}
+
+.text1 {color: purple}

@@ -1,0 +1,18 @@
+body {background-color: blue; }
+
+.box1 {border-style: solid;
+margin: 100px;
+height: 400px;
+width: 700px;
+padding: 10px}
+
+.box2 {border-style: dashed;
+border-width: thin;
+border-color: yellow;
+}
+
+.picture {height: 200px;
+width: 200px;
+border-style: dashed;
+border-color: white;
+padding: 10px;}

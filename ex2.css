@@ -1,0 +1,25 @@
+body {background-color: white}
+
+.box1 {border: dashed 3px purple;
+padding-top: 300px;
+text-align: center;
+top: 200px}
+
+.text1 {text-align: center;
+color: green;
+font-size: 10px}
+
+.text2 {color: orange;
+text-align: left;
+font-size: 30px}
+
+.redText{color: red;
+vertical-align: super;}
+
+.text3 {color: purple;
+text-align: right;
+font-size: 7px}
+
+.Cap{text-transform: uppercase;
+color:yellow;
+font-style: italic;}
