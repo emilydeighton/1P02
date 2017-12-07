@@ -123,6 +123,7 @@ body {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+	top 
 }
 
 .timeline::after {
@@ -156,17 +157,14 @@ body {
   z-index: 1;
 }
 
-/* Place the container to the left */
 .left {
   left: 0;
 }
 
-/* Place the container to the right */
 .right {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
 .left::before {
   content: " ";
   height: 0;
@@ -180,7 +178,6 @@ body {
   border-color: transparent transparent transparent white;
 }
 
-/* Add arrows to the right container (pointing left) */
 .right::before {
   content: " ";
   height: 0;
@@ -194,12 +191,10 @@ body {
   border-color: transparent white transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
 }
 
-/* The actual content */
 .content {
   padding: 20px 30px;
   background-color: white;
